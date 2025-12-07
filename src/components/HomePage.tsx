@@ -137,7 +137,7 @@ export function HomePage({
               />
               <div className="p-3">
                 <h3 className="text-sm text-gray-800 mb-1">{food.name}</h3>
-                <p className="text-orange-600">${food.price}</p>
+                <p className="text-orange-600">OMR {food.price}</p>
               </div>
             </div>
           ))}

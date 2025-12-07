@@ -13,7 +13,7 @@ export function CheckoutPage({ cart, onBack, onPlaceOrder }: CheckoutPageProps) 
   const [pickupTime, setPickupTime] = useState('asap');
 
   const subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  const tax = subtotal * 0.1;
+  const tax = subtotal * 0.05;
   const total = subtotal + tax;
 
   const handlePlaceOrder = () => {
@@ -47,22 +47,22 @@ export function CheckoutPage({ cart, onBack, onPlaceOrder }: CheckoutPageProps) 
                   {item.quantity}x {item.name}
                 </span>
                 <span className="text-gray-800">
-                  ${(item.price * item.quantity).toFixed(2)}
+                  OMR {(item.price * item.quantity).toFixed(2)}
                 </span>
               </div>
             ))}
             <div className="border-t pt-2 mt-2">
               <div className="flex justify-between text-sm text-gray-600 mb-1">
                 <span>Subtotal</span>
-                <span>${subtotal.toFixed(2)}</span>
+                <span>OMR {subtotal.toFixed(2)}</span>
               </div>
               <div className="flex justify-between text-sm text-gray-600 mb-2">
                 <span>Tax</span>
-                <span>${tax.toFixed(2)}</span>
+                <span>OMR {tax.toFixed(2)}</span>
               </div>
               <div className="flex justify-between text-lg text-gray-800">
                 <span>Total</span>
-                <span>${total.toFixed(2)}</span>
+                <span>OMR {total.toFixed(2)}</span>
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@ export function CheckoutPage({ cart, onBack, onPlaceOrder }: CheckoutPageProps) 
           onClick={handlePlaceOrder}
           className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white py-4 rounded-xl hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg"
         >
-          Place Order - ${total.toFixed(2)}
+          Place Order - OMR {total.toFixed(2)}
         </button>
       </div>
     </div>

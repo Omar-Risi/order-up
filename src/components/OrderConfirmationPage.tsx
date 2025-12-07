@@ -28,7 +28,7 @@ export function OrderConfirmationPage({
       <div className="flex-1 p-6 flex flex-col items-center">
         <div className="bg-white rounded-2xl p-8 shadow-lg max-w-sm w-full text-center mb-6">
           <h2 className="text-xl text-gray-800 mb-4">Pickup Code</h2>
-          
+
           {/* QR Code */}
           <div className="bg-white p-4 rounded-xl mb-6 flex justify-center">
             <QRCodeSVG
@@ -62,14 +62,14 @@ export function OrderConfirmationPage({
                   {item.quantity}x {item.name}
                 </span>
                 <span className="text-gray-800">
-                  ${(item.price * item.quantity).toFixed(2)}
+                  OMR {(item.price * item.quantity).toFixed(2)}
                 </span>
               </div>
             ))}
           </div>
           <div className="border-t pt-3 flex justify-between">
             <span className="text-gray-800">Total</span>
-            <span className="text-xl text-gray-800">${order.total.toFixed(2)}</span>
+            <span className="text-xl text-gray-800">OMR {order.total.toFixed(2)}</span>
           </div>
         </div>
 

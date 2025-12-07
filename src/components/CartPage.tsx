@@ -10,7 +10,7 @@ type CartPageProps = {
 
 export function CartPage({ cart, onBack, onUpdateQuantity, onCheckout }: CartPageProps) {
   const subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  const tax = subtotal * 0.1;
+  const tax = subtotal * 0.05;
   const total = subtotal + tax;
 
   return (
@@ -53,7 +53,7 @@ export function CartPage({ cart, onBack, onUpdateQuantity, onCheckout }: CartPag
                   />
                   <div className="flex-1">
                     <h3 className="text-gray-800 mb-1">{item.name}</h3>
-                    <p className="text-orange-600 mb-3">${item.price}</p>
+                    <p className="text-orange-600 mb-3">OMR {item.price}</p>
                     <div className="flex items-center gap-3">
                       <button
                         onClick={() => onUpdateQuantity(item.id, item.quantity - 1)}
@@ -92,12 +92,12 @@ export function CartPage({ cart, onBack, onUpdateQuantity, onCheckout }: CartPag
               <span>${subtotal.toFixed(2)}</span>
             </div>
             <div className="flex justify-between text-gray-600">
-              <span>Tax (10%)</span>
-              <span>${tax.toFixed(2)}</span>
+              <span>Tax (5%)</span>
+              <span>OMR {tax.toFixed(2)}</span>
             </div>
             <div className="flex justify-between text-xl text-gray-800 pt-3 border-t">
               <span>Total</span>
-              <span>${total.toFixed(2)}</span>
+              <span>OMR {total.toFixed(2)}</span>
             </div>
           </div>
           <button

@@ -246,7 +246,7 @@ export function RestaurantPage({
                     <div className="flex-1 py-3 pr-3 flex justify-between items-center">
                       <div>
                         <h3 className="text-gray-800 mb-1">{item.name}</h3>
-                        <p className="text-orange-600">${item.price}</p>
+                        <p className="text-orange-600">OMR {item.price}</p>
                       </div>
                       <button
                         onClick={() =>

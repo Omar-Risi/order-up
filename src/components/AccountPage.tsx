@@ -42,7 +42,7 @@ export function AccountPage() {
             <div>
               <h2 className="text-xl text-gray-800">John Doe</h2>
               <p className="text-sm text-gray-500">john.doe@email.com</p>
-              <p className="text-sm text-gray-500">+1 (555) 123-4567</p>
+              <p className="text-sm text-gray-500">+968 9999 9999</p>
             </div>
           </div>
         </div>

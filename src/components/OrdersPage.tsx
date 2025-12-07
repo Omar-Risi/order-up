@@ -92,7 +92,7 @@ export function OrdersPage({ orders }: OrdersPageProps) {
                 <div className="flex justify-between items-center pt-3 border-t">
                   <span className="text-gray-600">Total</span>
                   <span className="text-xl text-gray-800">
-                    ${order.total.toFixed(2)}
+                    OMR {order.total.toFixed(2)}
                   </span>
                 </div>
 
