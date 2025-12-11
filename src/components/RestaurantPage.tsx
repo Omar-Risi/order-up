@@ -22,13 +22,13 @@ const restaurantData: Record<string, any> = {
           {
             id: 'b1',
             name: 'Classic Cheeseburger',
-            price: 12.99,
+            price: 2.99,
             image: 'https://images.unsplash.com/photo-1688246780164-00c01647e78c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXJnZXIlMjBmb29kfGVufDF8fHx8MTc2NTExODQ4M3ww&ixlib=rb-4.1.0&q=80&w=1080',
           },
           {
             id: 'b2',
             name: 'Bacon Deluxe Burger',
-            price: 14.99,
+            price: 4.99,
             image: 'https://images.unsplash.com/photo-1688246780164-00c01647e78c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXJnZXIlMjBmb29kfGVufDF8fHx8MTc2NTExODQ4M3ww&ixlib=rb-4.1.0&q=80&w=1080',
           },
         ],
@@ -39,7 +39,7 @@ const restaurantData: Record<string, any> = {
           {
             id: 'b3',
             name: 'French Fries',
-            price: 4.99,
+            price: 0.9,
             image: 'https://images.unsplash.com/photo-1688246780164-00c01647e78c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXJnZXIlMjBmb29kfGVufDF8fHx8MTc2NTExODQ4M3ww&ixlib=rb-4.1.0&q=80&w=1080',
           },
         ],
@@ -50,7 +50,7 @@ const restaurantData: Record<string, any> = {
           {
             id: 'b4',
             name: 'Soft Drink',
-            price: 2.99,
+            price: 0.4,
             image: 'https://images.unsplash.com/photo-1688246780164-00c01647e78c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXJnZXIlMjBmb29kfGVufDF8fHx8MTc2NTExODQ4M3ww&ixlib=rb-4.1.0&q=80&w=1080',
           },
         ],
@@ -69,19 +69,19 @@ const restaurantData: Record<string, any> = {
           {
             id: 's1',
             name: 'California Roll',
-            price: 12.99,
+            price: 1.2,
             image: 'https://images.unsplash.com/photo-1707556294605-fd32496554e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXNoaSUyMHBsYXRlfGVufDF8fHx8MTc2NTEyMzgyOHww&ixlib=rb-4.1.0&q=80&w=1080',
           },
           {
             id: 's2',
             name: 'Spicy Tuna Roll',
-            price: 14.99,
+            price: 1.9,
             image: 'https://images.unsplash.com/photo-1707556294605-fd32496554e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXNoaSUyMHBsYXRlfGVufDF8fHx8MTc2NTEyMzgyOHww&ixlib=rb-4.1.0&q=80&w=1080',
           },
           {
             id: 's3',
             name: 'Dragon Roll',
-            price: 16.99,
+            price: 3.0,
             image: 'https://images.unsplash.com/photo-1707556294605-fd32496554e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXNoaSUyMHBsYXRlfGVufDF8fHx8MTc2NTEyMzgyOHww&ixlib=rb-4.1.0&q=80&w=1080',
           },
         ],
@@ -92,7 +92,7 @@ const restaurantData: Record<string, any> = {
           {
             id: 's4',
             name: 'Salmon Sashimi',
-            price: 18.99,
+            price: 2.5,
             image: 'https://images.unsplash.com/photo-1707556294605-fd32496554e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXNoaSUyMHBsYXRlfGVufDF8fHx8MTc2NTEyMzgyOHww&ixlib=rb-4.1.0&q=80&w=1080',
           },
         ],
@@ -111,13 +111,13 @@ const restaurantData: Record<string, any> = {
           {
             id: 'p1',
             name: 'Spaghetti Carbonara',
-            price: 16.99,
+            price: 1.6,
             image: 'https://images.unsplash.com/photo-1611270629569-8b357cb88da9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYXN0YSUyMGRpc2h8ZW58MXx8fHwxNzY1MTA1ODA4fDA&ixlib=rb-4.1.0&q=80&w=1080',
           },
           {
             id: 'p2',
             name: 'Penne Arrabbiata',
-            price: 14.99,
+            price: 1.3,
             image: 'https://images.unsplash.com/photo-1611270629569-8b357cb88da9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYXN0YSUyMGRpc2h8ZW58MXx8fHwxNzY1MTA1ODA4fDA&ixlib=rb-4.1.0&q=80&w=1080',
           },
         ],
@@ -128,7 +128,7 @@ const restaurantData: Record<string, any> = {
           {
             id: 'p3',
             name: 'Margherita Pizza',
-            price: 13.99,
+            price: 3.99,
             image: 'https://images.unsplash.com/photo-1544982503-9f984c14501a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaXp6YSUyMHNsaWNlfGVufDF8fHx8MTc2NTA0MDM4NXww&ixlib=rb-4.1.0&q=80&w=1080',
           },
         ],
@@ -147,13 +147,13 @@ const restaurantData: Record<string, any> = {
           {
             id: 't1',
             name: 'Tacos al Pastor',
-            price: 11.99,
+            price: 1.99,
             image: 'https://images.unsplash.com/photo-1529704640551-eef9ba5d774a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YWNvcyUyMGZvb2R8ZW58MXx8fHwxNzY1MDIwMTMwfDA&ixlib=rb-4.1.0&q=80&w=1080',
           },
           {
             id: 't2',
             name: 'Carnitas Tacos',
-            price: 12.99,
+            price: 2.99,
             image: 'https://images.unsplash.com/photo-1529704640551-eef9ba5d774a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YWNvcyUyMGZvb2R8ZW58MXx8fHwxNzY1MDIwMTMwfDA&ixlib=rb-4.1.0&q=80&w=1080',
           },
         ],
@@ -164,7 +164,7 @@ const restaurantData: Record<string, any> = {
           {
             id: 't3',
             name: 'Chips & Guacamole',
-            price: 6.99,
+            price: 0.5,
             image: 'https://images.unsplash.com/photo-1529704640551-eef9ba5d774a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YWNvcyUyMGZvb2R8ZW58MXx8fHwxNzY1MDIwMTMwfDA&ixlib=rb-4.1.0&q=80&w=1080',
           },
         ],
